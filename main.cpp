@@ -12,7 +12,7 @@ int main()
     f();
     
     void(*f2)() = [](){ std::cout << "lambda\n"; };
-    f();
+    f2();
 
     return 0;
 }
